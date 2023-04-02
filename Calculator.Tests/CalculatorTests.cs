@@ -18,7 +18,7 @@ namespace Calculator.Tests
         [Test]
         public void AdditionalMethodMustReturn30()
         {
-            Assert.AreEqual(30, calc.Additional()); //Are.Equal утверждает, что два значения равны (bool).
+            Assert.AreEqual(30, calc.Additional()); //AreEqual утверждает, что два значения равны (bool).
         }
 
         [Test]
